@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="Style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+  <h1>Formularios</h1>
+  <p>&nbsp;</p>
+&nbsp;</header>
+<nav>
+	<ul id="Menú_pricipal">
+    <li><a href="""../HTML/Audio.html">&nbsp;Audio</a></li>
+	 <li><a href="Enlaces_HTML.html">&nbsp;Enlaces</a></li>
+		<li><a href="../HTML/Formatos_de_texto.html">Formatos de texto&nbsp;</a></li>
+		<li><a href="../HTML/Imagenes.html">Imagenes&nbsp;</a></li>
+    <li><a href="listas.html">Listas&nbsp;</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+		<li><a href="../HTML/Video.html">Video&nbsp;</a></li>
+		<li><a href="../index.html">Inicio&nbsp;</a></li>
+  </ul>
+	&nbsp;</nav>
+<main>
+  <section>
+    <h2>Formulario&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum natus eligendi maxime officiis, saepe aliquam, cupiditate atque enim maiores dicta commodi cumque ratione similique, totam id officia veritatis, eaque aspernatur.</p>
+    <form action="Procesamiento.html" method="get" name="form1" id="form1">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br>
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+		<br><br>
+      <input type="submit" name="boton1" id="boton1" value="Enviar">
+    </form>
+  &nbsp;</section>
+  <section>
+    <h2>Formulario usando select checkbox y radiobutton</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum natus eligendi maxime officiis, saepe aliquam, cupiditate atque enim maiores dicta commodi cumque ratione similique, totam id officia veritatis, eaque aspernatur.</p>
+    <form action="Procesamiento.html" method="get" name="form2" id="form2">
+      <label for="pais">¿De qué país nos visitas?:</label>
+		<br><br>
+      <select name="pais" id="pais">
+        <option value="Mx">México</option>
+        <option value="USA">Estados Unidos</option>
+        <option value="Es">España</option>
+        <option value="Ar">Argentina</option>
+        <option value="Co">Colombia</option>
+        <option value="It">Italian</option>
+      </select><br>
+      <label>Género:&nbsp;</label>
+      <p>
+        <label>
+          <input type="radio" name="Genero" value="hombre" id="Genero_0">
+        Hombre</label>
+      </p>
+      <p> 
+        <label>
+          <input type="radio" name="Genero" value="mujer" id="Genero_1">
+          Mujer</label>
+        <br>
+      </p>
+		<label>¿Cual será tu residencia durante tu estancia?&nbsp;</label>
+      <table width="200">
+		          <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia temporal" value="hotel " id="Residenciatemporal_0">
+            Hotel</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia temporal" value="particular" id="Residenciatemporal_1">
+            Domicilio de Amigo/Familia</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia temporal" value="airbnb" id="Residenciatemporal_2">
+            Airbnb</label></td>
+        </tr>
+      </table>
+<br><br>
+      <input type="submit" name="submit" id="bototn2" value="Enviar">
+      
+    </form>
+  &nbsp;</section>
+<section>
+    <h2>Formulario de contacto&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum natus eligendi maxime officiis, saepe aliquam, cupiditate atque enim maiores dicta commodi cumque ratione similique, totam id officia veritatis, eaque aspernatur.</p>
+    <form action="Procesamiento.html" method="post" name="form3" id="form3">
+      <label for="Nombre">Nombre:</label>
+      <input name="Nombre" type="text" id="Nombre" placeholder="Escribe tu nombre">
+      <label for="email">Email:</label>
+      <input name="email" type="email" required="required" id="email" form="form3" placeholder="jorgealbertoteh@gmail.com">
+      <label for="Mensaje">Mensaje&nbsp;</label>
+      <textarea name="Mensaje" rows="6" maxlength="125" id="Mensaje" placeholder="Escribe tu mensaje..."></textarea>
+      <input name="boton3" type="submit" id="boton3" formmethod="GET" value="Enviar">
+    </form>
+  &nbsp;</section>
+  <section>
+    <h2>Formulario para  TU CARTA ASTRAL</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum natus eligendi maxime officiis, saepe aliquam, cupiditate atque enim maiores dicta commodi cumque ratione similique, totam id officia veritatis, eaque aspernatur.</p>
+	  <form action="Procesamiento.html" method="get" name="form1" id="form1">
+      <label for="nombre">Nombre:</label><br>
+<input type="text" name="nombre" id="nombre">
+		<br><br>
+      <label for="apellido">Apellido:</label><br>
+      <input type="text" name="apellido" id="apellido"><br><br>
+      <label for="date">Fecha de nacimiento :<br></label>
+      <input type="date" name="date" id="date"><br><br>
+      <label for="time">Hora de nacimiento:</label><br>
+      <input type="time" name="time" id="time"><br><br>
+		  <label for="phone">Ingresa tu número de teléfono para contactarte&nbsp;:</label>
+		  <br>
+  <input type="tel" id="phone" name="phone" placeholder="22-25-85-95-95"><br><br>
+  <label for="color">Color favorito:</label>
+  <input type="color" name="color" id="color"><br>
+<br><br>	  
+<input type="submit" name="boton1" id="boton1" value="Enviar">
+  &nbsp;</section>
+&nbsp;</main>
+<footer>
+  <h6>Elaborado por Jorge Alberto Terán Huerta</h6>
+&nbsp;</footer>
+</body>
+</html>

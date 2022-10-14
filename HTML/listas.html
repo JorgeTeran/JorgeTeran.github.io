@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body header {
+    height: 400px;
+    background-color: #005357;
+    color: #8AF9FF;
+    padding-top: 150px;
+}
+body header, body nav, body main, body footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body nav {
+    background-color: #E0D800;
+    height: 80px;
+    color: #005357;
+}
+body header h1 {
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 72px;
+    margin-top: -149px;
+}
+body footer h6 {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    height: 20px;
+}
+body main {
+    padding: 20px;
+    background-color: #009B86;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body main section {
+    width: 850px;
+    height: Auto;
+    background-color: #FFF83E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-right: auto;
+}
+main section h2 {
+    padding-bottom: 20px;
+}
+body footer {
+    background-color: #005357;
+    height: 100px;
+    padding-top: 40px;
+}
+section ul , section ol{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+section ul li {
+    list-style-type: circle;
+}
+#lista_1 li {
+    list-style-type: armenian;
+}
+.lista_2 li {
+    list-style-image: url(../Multimedia/flor.png);
+}
+#menú {
+}
+#menú li {
+    list-style-type: none;
+    padding: 0;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    color: #FFFFFF;
+}
+#LD {
+}
+#LO {
+}
+#LM {
+}
+#LMCURDI {
+}
+#LDA {
+}
+.nav1 {
+    padding: 5px;
+    margin: 5px;
+    display: compact;
+}
+.navalt {
+    display: inline-block;
+}
+</style>
+<link href="Style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Listas en html</h1>
+</header>
+	<nav>
+		 <ul id="Menú_pricipal">
+	 <li><a href="Audio.html">&nbsp;Audios</a></li>
+	  <li><a href="Enlaces_HTML.html">&nbsp;Enlaces</a></li>
+		<li><a href="../HTML/Formatos_de_texto.html">Formatos de texto&nbsp;</a></li>
+	  <li><a href="../HTML/Formularios.html">Formularios&nbsp;</a></li>
+		 <li><a href="Imagenes.html">&nbsp;Imagenes</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+	  <li><a href="../HTML/Video.html">Video&nbsp;</a></li>
+		<li><a href="../index.html">Inicio&nbsp;</a></li>
+  </ul>
+	</nav>
+<nav>
+  <ul id="menú">
+    <li><a href="Formatos_de_texto.html">Formatos textos</a></li>
+    <li><a href="#LD">Lista Desordenada</a></li>
+    <li><a href="#LO">Lista Ordenada</a></li>
+    <li><a href="#LM">Lista Mixta</a></li>
+    <li><a href="#LMCURDI">Lista modificada con una regla&nbsp; de indentificador</a></li>
+    <li><a href="#LDA">&nbsp;Lista Desordenda (2)</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2 id="LD">Lista desordenada&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quisquam aliquid neque nobis molestias id, cum, alias autem rem tempore! Accusamus, quas, aut. Aliquam possimus iure facilis voluptates quasi! Incidunt, at. Eligendi earum vel velit quasi ducimus iure repudiandae maiores sunt repellat quisquam dolor quae, tempore et, fuga dolorem cum, commodi quas ex fugit molestiae. Odio itaque repudiandae, quaerat molestias quis in accusantium architecto perspiciatis blanditiis earum debitis non, laboriosam nemo magni aspernatur excepturi voluptatem autem a. Maiores expedita, facere nesciunt obcaecati quam ipsam corporis vero nulla ad ratione iste itaque soluta, exercitationem totam distinctio ipsum mollitia fuga et doloribus aperiam placeat modi. Ipsa aspernatur obcaecati nostrum atque at, expedita assumenda nemo similique dolor magni beatae tempore pariatur iure recusandae voluptatum consectetur repellat inventore natus modi, quisquam error est adipisci? Inventore facilis sint harum temporibus id quidem fuga architecto iusto commodi eveniet? Asperiores odit officiis nam aspernatur error dolorum corporis!</p>
+	<ul class="lista_2">
+	  <li>Margaritas</li>
+	  <li>Rosas</li>
+	  <li>Violetas</li>
+		<li>Claveles</li>
+		<li>Hortencias</li>
+	</ul>
+  </section>
+<section>
+    <h2 id="LO">Lista ordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet in ipsum, accusantium rem non provident id amet dicta optio quos necessitatibus iure. Architecto, eligendi, blanditiis error nostrum dolorum explicabo et qui. Error impedit vel quibusdam culpa magnam aliquam tenetur eos quam, explicabo iste. Et nam, nostrum odit eligendi aperiam quas.</p>
+    <ol>
+      <li>María Terán</li>
+      <li>Gabriela Balderas</li>
+      <li>Arturo Terán</li>
+      <li>Johanna Huerta&nbsp; &nbsp;</li>
+      <li>Jorge Terán&nbsp;</li>
+    </ol>
+  </section>
+  <section>
+    <h2 id="LM">Lista mixta</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quisquam aliquid neque nobis molestias id, cum, alias autem rem tempore! Accusamus, quas, aut. Aliquam possimus iure facilis voluptates quasi! Incidunt, at. Eligendi earum vel velit quasi ducimus iure repudiandae maiores sunt repellat quisquam dolor quae, tempore et, fuga dolorem cum, commodi quas ex fugit molestiae. Odio itaque repudiandae, quaerat molestias quis in accusantium architecto perspiciatis blanditiis earum debitis non, laboriosam nemo magni aspernatur excepturi voluptatem autem a. Maiores expedita, facere nesciunt obcaecati quam ipsam corporis vero nulla ad ratione iste itaque soluta, exercitationem totam distinctio ipsum mollitia fuga et doloribus aperiam placeat modi. Ipsa aspernatur obcaecati nostrum atque at, expedita assumenda nemo similique dolor magni beatae tempore pariatur iure recusandae voluptatum consectetur repellat inventore natus modi, quisquam error est adipisci? Inventore facilis sint harum temporibus id quidem fuga architecto iusto commodi eveniet? Asperiores odit officiis nam aspernatur error dolorum corporis!</p>
+	  <ol>
+	  	<li>Estados Unidos</li>
+		<li>España</li>
+		<li>México
+		  	<ul>
+			  	<li>Puebla</li>
+				<li>Colima</li>
+				<li>Aguacalientes</li>
+				<li>Veracruz</li>
+				<li>Monterrey</li>
+			 </ul>
+		<li>Italia</li>
+		<li>Brasil</li>
+	  </ol>
+    </section>
+<section>
+    <h2 id="LMCURDI">Lista modificada con una regla de indentificador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet in ipsum, accusantium rem non provident id amet dicta optio quos necessitatibus iure. Architecto, eligendi, blanditiis error nostrum dolorum explicabo et qui. Error impedit vel quibusdam culpa magnam aliquam tenetur eos quam, explicabo iste. Et nam, nostrum odit eligendi aperiam quas.</p>
+    <ul id="lista_1">
+      <li>Seat</li>
+      <li>VW</li>
+      <li>Mazda</li>
+      <li>Audi</li>
+      <li>Renault</li>
+      <li>Kia&nbsp;</li>
+    </ul>
+</section>
+<section>
+  <h2 id="LDA">Lista desordenada&nbsp;</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quisquam aliquid neque nobis molestias id, cum, alias autem rem tempore! Accusamus, quas, aut. Aliquam possimus iure facilis voluptates quasi! Incidunt, at. Eligendi earum vel velit quasi ducimus iure repudiandae maiores sunt repellat quisquam dolor quae, tempore et, fuga dolorem cum, commodi quas ex fugit molestiae. Odio itaque repudiandae, quaerat molestias quis in accusantium architecto perspiciatis blanditiis earum debitis non, laboriosam nemo magni aspernatur excepturi voluptatem autem a. Maiores expedita, facere nesciunt obcaecati quam ipsam corporis vero nulla ad ratione iste itaque soluta, exercitationem totam distinctio ipsum mollitia fuga et doloribus aperiam placeat modi. Ipsa aspernatur obcaecati nostrum atque at, expedita assumenda nemo similique dolor magni beatae tempore pariatur iure recusandae voluptatum consectetur repellat inventore natus modi, quisquam error est adipisci? Inventore facilis sint harum temporibus id quidem fuga architecto iusto commodi eveniet? Asperiores odit officiis nam aspernatur error dolorum corporis!</p>
+  <ul class="lista_2">
+    <li>Margaritas</li>
+    <li>Rosas</li>
+    <li>Violetas</li>
+    <li>Claveles</li>
+    <li>Hortencias</li>
+  </ul>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Jorge Alberto Terán Huerta.</h6>
+</footer>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="Style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+  <h1 style=color:#F6D7D7>Tablas en html</h1>
+</header>
+<nav>
+  <ul id="Menú_pricipal">
+    <li><a href="""../HTML/Audio.html">&nbsp;Audio</a></li>
+	 <li><a href="Enlaces_HTML.html">&nbsp;Enlaces</a></li>
+		<li><a href="../HTML/Formatos_de_texto.html">Formatos de texto&nbsp;</a></li>
+		<li><a href="../HTML/Formularios.html">Formularios&nbsp;</a></li>
+		<li><a href="../HTML/Imagenes.html">Imagenes&nbsp;</a></li>
+    <li><a href="listas.html">Listas&nbsp;</a></li>
+		<li><a href="../HTML/Video.html">Video&nbsp;</a></li>
+	  <li><a href="../index.html">Inicio&nbsp;</a></li>
+  </ul>
+</nav>
+<main>	
+  <section>
+    <h2>Tabla desde codigo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem similique illum deleniti, doloribus reprehenderit? Corporis, maxime, voluptates quidem eaque magnam illo quam optio. Quibusdam deleniti facere vero nobis nesciunt ab sequi quidem modi natus sapiente, sed quod ex ipsum, possimus at pariatur hic excepturi dolores! Laboriosam aut eligendi eveniet!</p>
+	<table border="1" id="tabla_1">
+	  <thead>
+		<tr>
+		  <th>Nombre</th>
+		  <th>Taller</th>
+		  <th>Email</th>
+		  <th>Cuota de taller</th>
+	    </tr>
+	  </thead>
+		<tbody>
+			<tr>
+				<td>Terán Huerta</td>
+				<td>Pintura</td>
+				<td>jorgealbertoteh@gmail.com</td>
+				<td>$200</td>
+			</tr>
+			<tr>
+				<td>Carmen Terán</td>
+				<td>Ilustración</td>
+				<td>mar654@gmail.com</td>
+				<td>$285</td>
+			</tr>
+			<tr>
+				<td>Johanna Huerta</td>
+				<td>Corte y confección</td>
+				<td>You.122100@hotmali.com</td>
+				<td>$999</td>
+			</tr>
+			<tr>
+				<td>Gabriela López</td>
+				<td>Cocina</td>
+				<td>Gaby_ramirez@hotmail.com</td>
+				<td>$890</td>
+			</tr>
+			<tr>
+				<td>Daniel Anzures</td>
+				<td>Pintura</td>
+				<td>Dany_anz@gmail.com</td>
+				<td>$200</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Total de inscripción</td>
+				<td>$2574</td>
+			</tr>
+		</tfoot>  
+    </table>
+</section>
+  <section>
+    <h2>Tablas con estilo ccs y uso de Rowspan</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem similique illum deleniti, doloribus reprehenderit? Corporis, maxime, voluptates quidem eaque magnam illo quam optio. Quibusdam deleniti facere vero nobis nesciunt ab sequi quidem modi natus sapiente, sed quod ex ipsum, possimus at pariatur hic excepturi dolores! Laboriosam aut eligendi eveniet!</p>
+    <table border="1" id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Taller</th>
+          <th>Email</th>
+          <th>Cuota de taller</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Terán Huerta</td>
+          <td>Pintura</td>
+          <td>jorgealbertoteh@gmail.com</td>
+          <td>$200</td>
+        </tr>
+        <tr>
+          <td>Carmen Terán</td>
+          <td>Ilustración</td>
+          <td>mar654@gmail.com</td>
+          <td>$285</td>
+        </tr>
+        <tr>
+          <td>Johanna Huerta</td>
+          <td>Corte y confección</td>
+          <td>You.122100@hotmali.com</td>
+          <td>$999</td>
+        </tr>
+        <tr>
+          <td>Gabriela López</td>
+          <td>Cocina</td>
+          <td>Gaby_ramirez@hotmail.com</td>
+          <td>$890</td>
+        </tr>
+        <tr>
+          <td>Daniel Anzures</td>
+          <td>Pintura</td>
+          <td>Dany_anz@gmail.com</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <!--<td></td>
+          <td></td>-->
+          <td colspan="3" style="background-color:#39A985">Total de inscripción</td>
+          <td>$2574</td>
+        </tr>
+      </tfoot>
+    </table>
+</section>
+<section>
+    <h2>Tablas con cebras en horizontal o filas</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem similique illum deleniti, doloribus reprehenderit? Corporis, maxime, voluptates quidem eaque magnam illo quam optio. Quibusdam deleniti facere vero nobis nesciunt ab sequi quidem modi natus sapiente, sed quod ex ipsum, possimus at pariatur hic excepturi dolores! Laboriosam aut eligendi eveniet!</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_3">
+		<thead>
+			<tr>
+         	 	<th scope="col">&nbsp;Nombre</th>
+         	 	<th scope="col">Correo electrónico&nbsp;</th>
+         	 	<th scope="col">&nbsp;Teléfono</th>
+         	 	<th scope="col">Edad&nbsp;</th>
+         		 <th scope="col">Deporte&nbsp;</th>
+   		  </tr>
+		</thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Jorge Terán</td>
+          <td>&nbsp;jorgeran@hotmail.com</td>
+          <td>&nbsp;5295762952</td>
+          <td>&nbsp;18</td>
+          <td>&nbsp;Soccer</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mar Gutierres</td>
+          <td>&nbsp;mar_895@gmail.com</td>
+          <td>&nbsp;2145756324</td>
+          <td>&nbsp;20</td>
+          <td>Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Aldo Espindola</td>
+          <td>&nbsp;aldespindo@outlook.com</td>
+          <td>&nbsp;7896214896</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Americano</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Ruben Aguirre</td>
+          <td>&nbsp;aguiruben_5955@gmail.com</td>
+          <td>&nbsp;2123256896</td>
+          <td>&nbsp;20</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+    <h2>Tablas con cebras en vertical o columna</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem similique illum deleniti, doloribus reprehenderit? Corporis, maxime, voluptates quidem eaque magnam illo quam optio. Quibusdam deleniti facere vero nobis nesciunt ab sequi quidem modi natus sapiente, sed quod ex ipsum, possimus at pariatur hic excepturi dolores! Laboriosam aut eligendi eveniet!</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_4">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Correo electrónico&nbsp;</th>
+          <th scope="col">&nbsp;Teléfono</th>
+          <th scope="col">Edad&nbsp;</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Jorge Terán</td>
+          <td>&nbsp;jorgeran@hotmail.com</td>
+          <td>&nbsp;5295762952</td>
+          <td>&nbsp;18</td>
+          <td>&nbsp;Soccer</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mar Gutierres</td>
+          <td>&nbsp;mar_895@gmail.com</td>
+          <td>&nbsp;2145756324</td>
+          <td>&nbsp;20</td>
+          <td>Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Aldo Espindola</td>
+          <td>&nbsp;aldespindo@outlook.com</td>
+          <td>&nbsp;7896214896</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Americano</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Ruben Aguirre</td>
+          <td>&nbsp;aguiruben_5955@gmail.com</td>
+          <td>&nbsp;2123256896</td>
+          <td>&nbsp;20</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+    <h2>Tabla flotante (hover)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem similique illum deleniti, doloribus reprehenderit? Corporis, maxime, voluptates quidem eaque magnam illo quam optio. Quibusdam deleniti facere vero nobis nesciunt ab sequi quidem modi natus sapiente, sed quod ex ipsum, possimus at pariatur hic excepturi dolores! Laboriosam aut eligendi eveniet!</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_5">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">Correo electrónico&nbsp;</th>
+          <th scope="col">&nbsp;Teléfono</th>
+          <th scope="col">Edad&nbsp;</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Jorge Terán</td>
+          <td>&nbsp;jorgeran@hotmail.com</td>
+          <td>&nbsp;5295762952</td>
+          <td>&nbsp;18</td>
+          <td>&nbsp;Soccer</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mar Gutierres</td>
+          <td>&nbsp;mar_895@gmail.com</td>
+          <td>&nbsp;2145756324</td>
+          <td>&nbsp;20</td>
+          <td>Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Aldo Espindola</td>
+          <td>&nbsp;aldespindo@outlook.com</td>
+          <td>&nbsp;7896214896</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Americano</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Ruben Aguirre</td>
+          <td>&nbsp;aguiruben_5955@gmail.com</td>
+          <td>&nbsp;2123256896</td>
+          <td>&nbsp;20</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section id="section_1">
+    <h2>Tabla receptiva&nbsp;</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sunt rerum asperiores iure quos voluptatem alias neque, consequuntur, quibusdam voluptates architecto fugiat dolore. Voluptatem dolorem delectus recusandae ab, reiciendis voluptates, iusto quam quibusdam velit corporis? Enim cupiditate consequatur excepturi, assumenda optio sint, ullam ea repellendus explicabo maxime, aut culpa, voluptates sed minima dolores. Beatae voluptatem hic enim quam ab eos veritatis eius officia? Architecto porro quas unde libero, vero blanditiis culpa fugiat, repellendus repellat veritatis eos enim est officiis, quaerat quibusdam tenetur consequuntur doloremque. Deserunt provident temporibus voluptate! A maxime dicta alias cum. Officiis magnam, minus ad deserunt dignissimos eligendi earum totam blanditiis quam. Aperiam ad veniam placeat nobis rerum eaque nostrum quibusdam, mollitia ratione quas iure illo, non provident quia alias. Sit nostrum maiores atque at pariatur labore, necessitatibus aut blanditiis in, repudiandae, quos nihil, consequatur eos? Deserunt, quia culpa! Mollitia obcaecati tempore ducimus placeat eos velit id quas optio alias consectetur deserunt reiciendis quisquam aut quam magni, maxime ab maiores sunt nihil, laudantium, voluptates ipsum dolor, unde numquam. Earum ducimus consectetur iusto dolorem sit voluptatem itaque animi voluptatum consequatur soluta blanditiis, doloremque veniam pariatur harum iure, nesciunt excepturi. Rerum necessitatibus consequuntur, voluptas corporis consectetur eum saepe hic voluptatem!</p>
+<div id="tabla_receptiva">
+  <table border="1" cellspacing="5" id="tabla_6">
+    <tbody>
+      <tr>
+        <th scope="col">&nbsp;Nombre</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+      </tr>
+      <tr>
+        <td>&nbsp;Aarón</td>
+        <td>&nbsp;87</td>
+        <td>&nbsp;86</td>
+        <td>&nbsp;79</td>
+        <td>54&nbsp;</td>
+        <td>&nbsp;68</td>
+        <td>&nbsp;54</td>
+        <td>&nbsp;78</td>
+        <td>&nbsp;34</td>
+        <td>79</td>
+        <td>&nbsp;70</td>
+        <td>36</td>
+        <td>&nbsp;87</td>
+        <td>&nbsp;69</td>
+        <td>&nbsp;44</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Mar</td>
+        <td>&nbsp;07</td>
+        <td>&nbsp;57</td>
+        <td>&nbsp;46</td>
+        <td>&nbsp;86</td>
+        <td>&nbsp;57</td>
+        <td>&nbsp;93</td>
+        <td>&nbsp;54</td>
+        <td>&nbsp;46</td>
+        <td>&nbsp;48</td>
+        <td>&nbsp;99</td>
+        <td>&nbsp;58</td>
+        <td>&nbsp;45</td>
+        <td>&nbsp;84</td>
+        <td>&nbsp;98</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Román</td>
+        <td>79&nbsp;</td>
+        <td>&nbsp;46</td>
+        <td>&nbsp;57</td>
+        <td>&nbsp;24</td>
+        <td>&nbsp;64</td>
+        <td>&nbsp;46</td>
+        <td>&nbsp;35</td>
+        <td>&nbsp;47</td>
+        <td>&nbsp;26</td>
+        <td>&nbsp;74</td>
+        <td>&nbsp;75</td>
+        <td>&nbsp;73</td>
+        <td>&nbsp;47</td>
+        <td>&nbsp;57</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Aleida</td>
+        <td>&nbsp;79</td>
+        <td>&nbsp;97</td>
+        <td>&nbsp;46</td>
+        <td>&nbsp;75</td>
+        <td>&nbsp;53</td>
+        <td>&nbsp;75</td>
+        <td>&nbsp;35</td>
+        <td>27</td>
+        <td>&nbsp;69</td>
+        <td>&nbsp;15</td>
+        <td>&nbsp;38</td>
+        <td>&nbsp;95</td>
+        <td>&nbsp;37</td>
+        <td>&nbsp;74</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Jorge Alberto Terán Huerta</h6>
+</footer>
+</body>
+</html>
